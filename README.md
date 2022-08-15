@@ -1,2 +1,2 @@
 # Handshake
-Job - search/offer. Educationnal project. 
+Job - search/offer. Educational project. 
