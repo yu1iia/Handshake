@@ -1,0 +1,56 @@
+.career {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 57px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: $dark-theme-background;
+
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    margin-right: 20px;
+  }
+  &__link,
+  &__login {
+    color: $dark-theme-color;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+  height: 73px;
+  padding-left: 80px;
+  &__img {
+    margin-right: 575px;
+  }
+
+  &__nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-left: 30px;
+  }
+  &__nav-item {
+    &:not(last-child) {
+      margin-right: 30px;
+    }
+  }
+  &__nav-link {
+    color: $light-theme-color;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
