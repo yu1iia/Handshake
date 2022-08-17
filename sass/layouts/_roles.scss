@@ -1,0 +1,28 @@
+.roles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+  background-color: #d3f1f3;
+
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 5px;
+    color: $light-theme-color;
+  }
+  &__current {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 7px;
+    color: $light-theme-color;
+  }
+}

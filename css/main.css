@@ -110,4 +110,40 @@ img {
   font-size: 14px;
   line-height: 18px;
 }
+
+.roles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 62px;
+  background-color: #d3f1f3;
+}
+
+.roles__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 5px;
+  color: #000000;
+}
+
+.roles__current {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 7px;
+  color: #000000;
+}
 /*# sourceMappingURL=main.css.map */
