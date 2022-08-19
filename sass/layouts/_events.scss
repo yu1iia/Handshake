@@ -1,0 +1,40 @@
+.events {
+  height: 554px;
+  background-color: #f3e02b;
+  padding-top: 111px;
+  box-sizing: border-box;
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: $light-theme-color;
+    margin-bottom: 40px;
+  }
+  &__description {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: $light-theme-color;
+    margin-bottom: 80px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+  }
+  &__more-button {
+    display: block;
+    width: 144px;
+    height: 52px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: $dark-theme-color;
+    background-color: $button-color;
+    margin: 0 auto;
+  }
+}
