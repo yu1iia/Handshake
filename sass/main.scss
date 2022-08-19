@@ -8,8 +8,9 @@
 @import './base/container';
 
 // layout
+@import './layouts/companies';
+@import './layouts/experience';
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/jobs';
 @import './layouts/roles';
-@import './layouts/experience';
