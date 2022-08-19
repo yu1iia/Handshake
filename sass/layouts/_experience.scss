@@ -1,0 +1,78 @@
+.experience {
+  height: 904px;
+  background-image: url('/images/feedback-bg.png');
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: $light-theme-color;
+    padding-top: 111px;
+    margin-bottom: 279px;
+  }
+  &__feedback {
+    box-sizing: border-box;
+    display: flex;
+    width: 1060;
+    height: 256px;
+    background-color: $light-theme-background;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+    margin-bottom: 36px;
+    padding-left: 70px;
+    padding-top: 78px;
+    &-img {
+      width: 100px;
+      height: 100px;
+      margin-right: 50px;
+    }
+    &-message {
+      display: block;
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 21px;
+      line-height: 42px;
+      color: $light-theme-color;
+      margin-bottom: 17px;
+    }
+    &-user {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: $light-theme-color;
+      &-city {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: $light-theme-color;
+      }
+    }
+  }
+  &__carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-dot {
+      border-radius: 50%;
+      border: 2px solid $dark-theme-color;
+    }
+    &-link {
+      display: block;
+      width: 15px;
+      height: 15px;
+    }
+    &-dot:not(:last-child) {
+      margin-right: 18px;
+    }
+    &-dot:first-child {
+      background-color: $light-theme-background;
+    }
+  }
+}

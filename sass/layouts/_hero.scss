@@ -1,7 +1,7 @@
 .hero {
   height: 584px;
   background-image: url('/images/hero-bg.png');
-
+  background-repeat: no-repeat;
   &__title {
     font-family: $main-font;
     font-style: normal;

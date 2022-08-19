@@ -114,6 +114,7 @@ img {
 .hero {
   height: 584px;
   background-image: url("/images/hero-bg.png");
+  background-repeat: no-repeat;
 }
 
 .hero__title {
@@ -290,5 +291,104 @@ img {
   text-align: center;
   margin-right: 7px;
   color: #000000;
+}
+
+.experience {
+  height: 904px;
+  background-image: url("/images/feedback-bg.png");
+}
+
+.experience__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  padding-top: 111px;
+  margin-bottom: 279px;
+}
+
+.experience__feedback {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1060;
+  height: 256px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  margin-left: 190px;
+  margin-bottom: 36px;
+  padding-left: 70px;
+  padding-top: 78px;
+}
+
+.experience__feedback-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+}
+
+.experience__feedback-message {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 17px;
+}
+
+.experience__feedback-user {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.experience__feedback-user-city {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.experience__carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.experience__carousel-dot {
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.experience__carousel-link {
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+
+.experience__carousel-dot:not(:last-child) {
+  margin-right: 18px;
+}
+
+.experience__carousel-dot:first-child {
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
