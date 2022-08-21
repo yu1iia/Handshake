@@ -1,0 +1,48 @@
+.subscription {
+  position: relative;
+  box-sizing: border-box;
+  height: 461px;
+  background-color: #0f1035;
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: $dark-theme-color;
+    padding-top: 112px;
+    margin-bottom: 40px;
+  }
+  &__details {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: $dark-theme-color;
+    margin-bottom: 40px;
+  }
+  &__form {
+    display: flex;
+    justify-content: center;
+  }
+  &__email {
+    width: 340px;
+    height: 46px;
+    margin-right: 60px;
+    padding-left: 20px;
+    border: none;
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.2);
+    }
+  }
+  &__button {
+    width: 108px;
+    height: 46px;
+    color: $dark-theme-color;
+    background-color: $subscription-button-color;
+    cursor: pointer;
+  }
+}

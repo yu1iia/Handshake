@@ -145,6 +145,7 @@ img {
   color: #ffffff;
   background-color: #190083;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .experience {
@@ -289,6 +290,7 @@ img {
   color: #ffffff;
   background-color: #190083;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .career {
@@ -433,6 +435,7 @@ img {
   border: none;
   background-color: #190083;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .jobs {
@@ -515,6 +518,7 @@ img {
   text-align: center;
   color: #ffffff;
   background-color: #190083;
+  cursor: pointer;
 }
 
 .roles {
@@ -551,6 +555,78 @@ img {
   text-align: center;
   margin-right: 7px;
   color: #000000;
+}
+
+.subscription {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 461px;
+  background-color: #0f1035;
+}
+
+.subscription__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 112px;
+  margin-bottom: 40px;
+}
+
+.subscription__details {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.subscription__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subscription__email {
+  width: 340px;
+  height: 46px;
+  margin-right: 60px;
+  padding-left: 20px;
+  border: none;
+}
+
+.subscription__email::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.subscription__email:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.subscription__email::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.subscription__email::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.subscription__button {
+  width: 108px;
+  height: 46px;
+  color: #ffffff;
+  background-color: #ff1100;
+  cursor: pointer;
 }
 
 .universities {
