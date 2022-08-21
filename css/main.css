@@ -31,6 +31,51 @@ img {
   width: 1440px;
 }
 
+.application {
+  height: 595px;
+  background-color: #ebeef3;
+  padding-top: 60px;
+}
+
+.application__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.application__description {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 150px;
+}
+
+.application__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 93px;
+}
+
+.application__item-appstore {
+  margin-right: 40px;
+}
+
+.application__item-phone {
+  background-image: url("/images/phone.png");
+  width: 923px;
+  height: 493px;
+}
+
 .companies {
   height: 850px;
   background: #f6f6f8;
@@ -509,7 +554,7 @@ img {
 }
 
 .universities {
-  height: 1150px;
+  height: 1050px;
   padding-top: 110px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
