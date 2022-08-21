@@ -1,0 +1,47 @@
+.universities {
+  height: 1150px;
+  padding-top: 110px;
+  box-sizing: border-box;
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: $light-theme-color;
+    margin-bottom: 100px;
+  }
+  &__list {
+    width: 500px;
+    height: 474px;
+    background-color: $light-theme-background;
+    margin-top: -550px;
+    margin-left: 170px;
+    &-title {
+      display: block;
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 32px;
+      text-align: center;
+      color: $light-theme-color;
+      background-color: $light-theme-background;
+      padding-top: 70px;
+      margin-bottom: 60px;
+    }
+    &-details {
+      margin: 0 auto;
+    }
+  }
+  &__bg {
+    height: 1280px;
+    height: 634px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-image: url('/images/student.png');
+    background-size: contain;
+  }
+}

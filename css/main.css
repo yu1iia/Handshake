@@ -507,4 +507,58 @@ img {
   margin-right: 7px;
   color: #000000;
 }
+
+.universities {
+  height: 1150px;
+  padding-top: 110px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.universities__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 100px;
+}
+
+.universities__list {
+  width: 500px;
+  height: 474px;
+  background-color: #ffffff;
+  margin-top: -550px;
+  margin-left: 170px;
+}
+
+.universities__list-title {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  padding-top: 70px;
+  margin-bottom: 60px;
+}
+
+.universities__list-details {
+  margin: 0 auto;
+}
+
+.universities__bg {
+  height: 1280px;
+  height: 634px;
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  background-image: url("/images/student.png");
+  background-size: contain;
+}
 /*# sourceMappingURL=main.css.map */
