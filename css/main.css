@@ -293,6 +293,10 @@ img {
   cursor: pointer;
 }
 
+.footer {
+  padding-top: 80px;
+}
+
 .career {
   display: -webkit-box;
   display: -ms-flexbox;
