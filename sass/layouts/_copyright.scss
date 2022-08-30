@@ -1,0 +1,42 @@
+.copyright {
+  display: flexbox;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-bottom: 20px;
+  &__border {
+    display: block;
+    background-color: $light-theme-color;
+    width: 1067px;
+    height: 1px;
+    margin-bottom: 25px;
+  }
+  &__list-container {
+    display: flex;
+  }
+  &__list-sm {
+    display: flex;
+  }
+  &__item-sm {
+    width: 20px;
+    height: 20px;
+  }
+  &__item-sm:not(:last-child) {
+    margin-right: 15px;
+  }
+  &__list-policy {
+    display: flex;
+    margin-right: 460px;
+  }
+  &__item {
+    margin-right: 30px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: $light-theme-color;
+  }
+}

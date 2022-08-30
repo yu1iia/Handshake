@@ -1,7 +1,7 @@
 .subscription {
   position: relative;
   box-sizing: border-box;
-  height: 461px;
+  padding-bottom: 110px;
   background-color: #0f1035;
   &__title {
     font-family: $main-font;
@@ -11,7 +11,7 @@
     line-height: 48px;
     text-align: center;
     color: $dark-theme-color;
-    padding-top: 112px;
+    padding-top: 110px;
     margin-bottom: 40px;
   }
   &__details {
